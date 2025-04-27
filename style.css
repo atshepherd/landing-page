@@ -146,11 +146,17 @@
 }
 
 .two-content {
-    height: 500px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 /* section two end */
 
@@ -158,6 +164,19 @@
 
 .section-three {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-content {
+    width: 750px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -170,6 +189,7 @@
 .attribution {
     font-weight: bold;
     font-size: 18px;
+    align-self: flex-end;
 }
 
 /* section three end */
