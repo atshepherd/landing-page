@@ -34,6 +34,20 @@
     color: #F9FAF8;
 }
 
+.button {
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.button:hover {
+    background-color: #2b60b4;
+    cursor: pointer;
+}
+
 .one-header {
     font-size: 48px;
     font-weight: 900;
@@ -93,4 +107,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.one-image {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    background-color: rgba(169, 169, 169, 0.596);
+    justify-content: center;
+    align-items: center;
+}
+
+.one-left {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
