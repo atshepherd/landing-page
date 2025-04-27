@@ -25,9 +25,10 @@
     font-weight: 900;
 }
 
-.one-text, .header-links {
+.one-text, .header-links a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 .two-header {
@@ -54,4 +55,18 @@
 .attribution {
     font-weight: bold;
     font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.header-logo, .header-links {
+    display: flex;
+}
+
+.header-links {
+    gap: 30px;
 }
