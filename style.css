@@ -5,9 +5,19 @@
     font-family: "Roboto", sans-serif;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .header, .footer, .section-one {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.section-one, .section-two, .section-three, .section-four{
+    height: 600px;
 }
 
 .logo {
@@ -61,6 +71,8 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    position: sticky;
+    top:0;
 }
 
 .header-logo, .header-links {
@@ -69,4 +81,11 @@
 
 .header-links {
     gap: 30px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
