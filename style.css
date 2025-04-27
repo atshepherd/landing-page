@@ -20,8 +20,12 @@
     color: #F9FAF8;
 }
 
-.section-one, .section-two, .section-three, .section-four{
+.section-one, .section-two {
     height: 500px;
+}
+
+.section-three, .section-four {
+    height: 400px;
 }
 
 /* shared/global values end */
@@ -197,8 +201,38 @@
 /* section four begin */
 
 .section-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-content {
+    height: 150px;
+    width: 1000px;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.four-text {
+    width: 600px;
+}
+
+.call-main {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-sub {
+    color: #F9FAF8;
+}
+
+.section-four .button {
+    border: 2px solid white;
 }
 
 /* section four end */
